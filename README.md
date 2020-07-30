@@ -21,9 +21,6 @@
 - flash-core 基础模块，包括工具类，dao，service，bean等内容
 - flash-generator 代码生成模块,配合IDEA 代码生成插件[webflash-generator](https://plugins.jetbrains.com/plugin/12648-webflash-generator)使用效果更好
 
-## 演示
-- 后台管理(vue版本) [http://flash-admin.enilu.cn](http://flash-admin.enilu.cn)
-- 手机端 [http://flash-mobile.enilu.cn/#/index](http://flash-mobile.enilu.cn/#/index) 打开浏览器后使用debug模式的手机视图模式浏览
 
 ## 技术选型
 - 核心框架：Spring Boot
@@ -70,19 +67,3 @@ web-flash包含了成熟的后台管理功能和手机端h5内容站点系统
     - 启动成功后访问 http://localhost:8088/#/index
 - 手机端运行效果图：
     ![mobile](docs/flash-mobile.gif)
-
-## 在线文档
-- [http://enilu.github.io/web-flash](http://enilu.github.io/web-flash)
-- 国内加速版：[http://enilu.gitee.io/web-flash](http://enilu.gitee.io/web-flash)
-
-## 交流
-- 关注公众号：嗨客帝国，点击对应的项目菜单进群交流。
-
-![公众号二维码](docs/img/haike.jpg)
-
-- [社区提问](http://bbs.enilu.cn)
-
-- Gitter: [Gitter channel](https://gitter.im/web-flash/community)
-
-
-[Change Log](http://enilu.gitee.io/web-flash/other/changeLog.html)
