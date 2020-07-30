@@ -1,0 +1,22 @@
+## 生产环境配置
+debug: false
+
+# token有效期：分钟
+jwt:
+  token:
+    expire:
+      time: 30
+
+spring:
+  datasource:
+    sql-script-encoding: utf-8
+    url: jdbc:mysql://localhost:3306/web_flash?createDatabaseIfNotExist=true&useUnicode=true&useSSL=true&allowMultiQueries=true&characterEncoding=UTF8
+    username: webflash
+    password=: ebflash190602
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    #默认使用InnoDB引擎
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true

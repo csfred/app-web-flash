@@ -1,0 +1,26 @@
+## 开发环境配置
+debug: true
+# token有效期：分钟
+jwt:
+  token:
+    expire:
+      time: 30
+
+spring:
+  datasource:
+    sql-script-encoding: utf-8
+    url: jdbc:mysql://192.168.1.101:3306/web_flash?createDatabaseIfNotExist=true&useSSL=false&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF8
+    username: root
+    password: root
+
+  ## 系统启动自动创建数据库和初始化测试语句
+  jpa:
+    hibernate:
+      #ddl-auto: create  删除表在创建  none 无操作
+      ddl-auto: none
+      use-new-id-generator-mappings: false
+    #默认使用InnoDB引擎
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+
+#server.servlet.context-path=/api
